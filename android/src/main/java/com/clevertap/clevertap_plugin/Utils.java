@@ -116,7 +116,7 @@ public class Utils {
                     Log.e("CleverTapError", "JSON to Map error", ex);
                     return stringObjectMap;
                 }
-                stringObjectMap.put(key, value.toString());
+                stringObjectMap.put(key, value);
             }
         }
         return stringObjectMap;
